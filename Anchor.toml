@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.localnet]
+deep_clean = "5s4ZVnacCK35W8pkuMrLwyXcAU8hrV2GLW1DuKuXKYHV"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/Users/ajujacob/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
